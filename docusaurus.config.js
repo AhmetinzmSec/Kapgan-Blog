@@ -1,7 +1,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/oceanicNext');
 const darkCodeTheme = require('prism-react-renderer/themes/oceanicNext');
 
-
 const config = {
     title: 'Kapgan Federasyonu',
     tagline: 'Siber Güvenliğin Öncüleri...',
