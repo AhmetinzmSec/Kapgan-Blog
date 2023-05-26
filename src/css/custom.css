@@ -17,16 +17,39 @@
 }
 
 [data-theme='dark'] {
-    --ifm-color-primary: #25c2a0;
-    --ifm-color-primary-dark: #21af90;
-    --ifm-color-primary-darker: #1fa588;
-    --ifm-color-primary-darkest: #1a8870;
-    --ifm-color-primary-light: #29d5b0;
-    --ifm-color-primary-lighter: #32d8b4;
-    --ifm-color-primary-lightest: #4fddbf;
+    --ifm-color-primary: #c27125;
+    --ifm-color-primary-dark: #af6d21;
+    --ifm-color-primary-darker: #a5601f;
+    --ifm-color-primary-darkest: #88391a;
+    --ifm-color-primary-light: #d59029;
+    --ifm-color-primary-lighter: #d87432;
+    --ifm-color-primary-lightest: #ddab4f;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
     --ifm-font-family-base: 'Roboto Mono';
-    --button-bg: #1c947b;
-    --button-bg-hover: #26c4a1;
-    --hero-bg: #2a4129;
+    --button-bg: #A33129;
+    --button-bg-hover: #c45326;
+    --hero-bg: #413029;
+}
+
+::selection {
+    background: var(--button-bg);
+    color: #000000;
+}
+
+::-moz-selection {
+    background: var(--button-bg);
+    color: #000000;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--docusaurus-highlighted-code-line-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--button-bg);
+    border-radius: 5px;
 }

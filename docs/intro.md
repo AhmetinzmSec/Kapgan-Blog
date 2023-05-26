@@ -22,7 +22,7 @@ Bir **ipucu** bu _şekilde_ `gözükecek`. Link ise [şu şekilde](#).
 
 :::
 
-:::info
+:::info Bilgi
 
 Bir **bilgilendirme** bu _şekilde_ `gözükecek`. Link ise [şu şekilde](#).
 
