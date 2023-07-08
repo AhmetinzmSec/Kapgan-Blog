@@ -55,7 +55,7 @@ const config = {
                 },
                 {
                     href: 'https://github.com/AhmetinzmSec',
-                    label: 'GitHub Deposu',
+                    label: 'GitHub Reposu',
                     position: 'right',
                 },
                 {
