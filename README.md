@@ -1,1 +1,0 @@
-# Kapgan Blog
