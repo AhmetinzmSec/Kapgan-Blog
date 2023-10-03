@@ -1,5 +1,5 @@
-import React, {FC} from 'react';
-import {HeroWrap} from "@site/src/components/hero/style";
+import React, { FC } from 'react';
+import { HeroWrap } from "@site/src/components/hero/style";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import ThemedImage from '@theme/ThemedImage'
 import ReactTypingEffect from 'react-typing-effect';
@@ -8,9 +8,9 @@ import Button from '../style/button';
 const Hero: FC = () => {
     return (
         <HeroWrap>
-            <h1> Kapgan - Blog </h1>
+            <h1> Hackadia Blog </h1>
             <ReactTypingEffect
-                text={["Kapgan Blog'una Hoşgeldiniz.."]}
+                text={["Hackadia Blog'una Hoşgeldiniz.."]}
                 cursorRenderer={cursor => <h2>{cursor}</h2>}
                 displayTextRenderer={(text, i) => {
                     return (
@@ -41,11 +41,11 @@ const Hero: FC = () => {
             </Button>
 
             <ThemedImage
-                sources ={{
+                sources={{
                     light: useBaseUrl('/img/light.jpg'),
                     dark: useBaseUrl('/img/dark.jpg')
                 }}
-                alt=""/>
+                alt="" />
         </HeroWrap>
     );
 };

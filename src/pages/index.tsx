@@ -10,7 +10,7 @@ export default function Home(): JSX.Element {
     const {siteConfig} = useDocusaurusContext();
     return (
         <Layout
-            title={`Kapgan Blog`}
+            title={`Hackadia Blog`}
             description="Siber Güvenliğin Öncüleri... <head />">
             <main>
                 <Hero/>

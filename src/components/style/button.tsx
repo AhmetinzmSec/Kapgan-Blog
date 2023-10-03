@@ -13,7 +13,7 @@ const Button = styled(Link)<Props>`
   cursor: pointer;
   font-weight: bold;
   background-color: ${props => props.type === 'outlined' ? 'transparent' : "var(--button-bg)"};
-  color: ${props => props.type === 'outlined' ? 'var(--button-bg)' : "#ffffff"};
+  color: #ffffff;
   border: 1px solid var(--button-bg);
   border-radius: ${props => props.shape === 'circle' ? '100px' : 0};
 
@@ -25,7 +25,7 @@ const Button = styled(Link)<Props>`
   
   :hover, :active, :focus {
     background-color: ${props => props.type === 'outlined' ? 'transparent' : "var(--button-bg-hover)"};
-    color: ${props => props.type === 'outlined' ? 'var(--button-bg-hover)' : "#ffffff"};
+    color: #ffffff;
     border: 1px solid var(--button-bg-hover);
     transition: all 0.5s;
     text-decoration: none;

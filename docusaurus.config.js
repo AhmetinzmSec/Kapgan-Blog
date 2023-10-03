@@ -2,9 +2,9 @@ const lightCodeTheme = require('prism-react-renderer/themes/oceanicNext');
 const darkCodeTheme = require('prism-react-renderer/themes/oceanicNext');
 
 const config = {
-    title: 'Kapgan Federasyonu',
+    title: 'Hackadia',
     tagline: 'Siber Güvenliğin Öncüleri...',
-    url: 'https://kapganblog.vercel.app',
+    url: 'https://Hackadiablog.vercel.app',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -35,9 +35,9 @@ const config = {
     ],
     themeConfig: ({
         navbar: {
-            title: 'Kapgan Blog',
+            title: 'Hackadia Blog',
             logo: {
-                alt: 'Kapgan Blog Logo',
+                alt: 'Hackadia Blog Logo',
                 src: 'img/favicon.png',
             },
             items: [
@@ -49,8 +49,8 @@ const config = {
                     label: 'Makaleler',
                 },
                 {
-                    href: 'https://kapganfederation.vercel.app',
-                    label: 'Kapgan Federasyonu',
+                    href: 'https://hackadia.com.tr',
+                    label: 'Hackadia',
                     position: 'right',
                 },
                 {
@@ -80,11 +80,11 @@ const config = {
                     items: [
                         {
                             label: 'Thunar',
-                            href: 'https://thunar.vercel.app',
+                            href: 'https://thunar.hackadia.com.tr',
                         },
                         {
                             label: 'Rıhtım',
-                            href: 'https://kapganfederation.vercel.app/download',
+                            href: 'https://hackadia.com.tr/download',
                         },
                     ],
                 },
@@ -98,7 +98,7 @@ const config = {
                     ],
                 },
             ],
-            copyright: `Kapgan Federasyonu © 2022 - 2023`,
+            copyright: `Hackadia © 2022 - 2023`,
         },
         prism: {
             theme: lightCodeTheme,
